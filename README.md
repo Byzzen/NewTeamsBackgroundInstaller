@@ -6,9 +6,17 @@ This powershell script updates, or installs new backgrounds for the Microsoft Ne
 
 The script can be run, using Intune or another software deployment tool.
 
+#Create a folder called Uploads in the directory where the scripts and cmd file are located!.
+Put the Jpeg files that you want distributed into that.
+So If you have teams installed on your computer upload your backgrounds in the New Teams client on your computer. 
+Copy the jpeg files and thumb into the uploads filder. The files can be located under %localappdata%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds\Uploads
+The files will have a unique fingerprint, bit that does not matter, make sure to copy both the main picture and the *_thumb.jpeg to the uploads folder where the script is.
 
-Update the pictures in the \Uploads folder and package it, like normal. Then use the Install.cmd to run the inataller. 
-The script is a 2 setp rocket. 
+
+When updated the pictures in the \Uploads folder and package it, like normal.
+
+Basics.....
+The script is a 2 step rocket. 
 
 The first step is to copy the files (C:\windows\customization\TeamsBackground and add the installer to run in user context after a restart. 
 This is done using Active Setup.
