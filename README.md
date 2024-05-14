@@ -45,7 +45,7 @@ All other (Blank)
 Rule Type = File
 Path = C:\Windows\customization\TeamsBackground\
 File or folder = CopyTeamsBackground.ps1
-Detection methid = File or folder exists
+Detection method = File or folder exists
 Associated with a 32-bit app on 64-bit clients = No
 
 
