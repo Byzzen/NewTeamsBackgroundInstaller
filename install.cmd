@@ -1,0 +1,1 @@
+powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "install.ps1"
